@@ -1,0 +1,26 @@
+.bukva {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.wordList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wordItem {
+  flex-shrink: 0;
+}
+
+.wordLink {
+
+}

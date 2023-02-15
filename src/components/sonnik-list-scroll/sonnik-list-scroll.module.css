@@ -1,0 +1,14 @@
+.sonnikListScrollList {
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+
+}
+
+.sonnikListScrollItem {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+}

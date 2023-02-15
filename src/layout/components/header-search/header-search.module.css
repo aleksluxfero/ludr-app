@@ -1,0 +1,20 @@
+.headerSearch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--foreground);
+}
+
+.headerSearchForm input {
+  height: 30px;
+}
+
+.headerSearchButton {
+  flex-shrink: 0;
+}
+
+.headerSearchIcon {
+  fill: var(--text)
+}

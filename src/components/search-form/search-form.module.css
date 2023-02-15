@@ -1,0 +1,32 @@
+.searchForm {
+  position: relative;
+  width: 100%;
+}
+
+.searchFormLabel {
+  width: 100%;
+}
+
+.searchFormInput {
+  border: none;
+  padding: 0 45px 0 15px;
+  height: 36px;
+  width: 100%;
+  border-radius: var(--border-radius);
+  background-color: var(--steel_gray_40);
+}
+
+.notButtonInput {
+  padding: 0 15px;
+}
+
+.searchFormButton {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchFormSearchIcon {
+  fill: var(--gray_900);
+}

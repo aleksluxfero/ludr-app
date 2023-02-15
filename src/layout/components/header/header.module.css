@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.headerLeft {
+  display: inline-flex;
+}
+
+.headerRight {
+  display: inline-flex;
+}
+
+.headerSearchIcon {
+  fill: var(--text);
+}
+
+.headerSearch {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

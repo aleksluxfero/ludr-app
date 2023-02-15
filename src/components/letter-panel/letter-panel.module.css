@@ -1,0 +1,26 @@
+.letterPanel {
+  width: 100%;
+}
+
+.letterList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(28px, 1fr));
+  grid-auto-rows: minmax(26px, 30px);
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+}
+
+.letterItem {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--blue);
+}
+
+.letterLink {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}

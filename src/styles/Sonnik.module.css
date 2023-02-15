@@ -1,0 +1,39 @@
+.sonnikList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sonnikItem {
+  border-radius: var(--border-radius);
+  background-color: var(--foreground);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sonnikTitle {
+  font-weight: 500;
+}
+
+.sonnikDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sonnikNav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sonnikNavTitle {
+  font-size: 20px;
+}
+
+.sonnikNavList {
+  list-style: none;
+}

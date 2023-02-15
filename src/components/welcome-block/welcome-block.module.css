@@ -1,0 +1,51 @@
+.welcomeBlock {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url("/img/lucid-dream.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.welcomeBlockTitleWrapper {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcomeBlockTitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.welcomeBlockTitle2 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.welcomeBlockDesc {
+  text-align: center;
+  z-index: 1;
+  max-width: 90%;
+}
+
+.welcomeBlockNavigate {
+  width: 90%;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark2_t9);
+}
