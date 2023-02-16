@@ -33,11 +33,11 @@
 .welcomeBlockDesc {
   text-align: center;
   z-index: 1;
-  max-width: 90%;
+  width: 100%;
 }
 
 .welcomeBlockNavigate {
-  width: 90%;
+  width: 100%;
   z-index: 1;
 }
 

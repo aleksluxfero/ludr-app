@@ -13,7 +13,7 @@ function Home({popularSonnikNames}: HomeProps): JSX.Element {
   return (
     <>
       <Head>
-        <title>Сонник - толкование снов онлайн бесплатно | ЯВосне</title>
+        <title>Сонник - толкование снов онлайн бесплатно</title>
         <meta name="description" content="Сонник
         Миллера, Сонник Ванги, Мусульманский Сонник, Сонник Цветкова, Сонник Фрейда и др."/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
