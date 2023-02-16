@@ -2,6 +2,12 @@
   position: relative;
   border-radius: var(--border-radius);
   overflow: hidden;
+  background-image: url("/img/lucid-dream.webp");
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sonnikCardLink {

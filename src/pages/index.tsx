@@ -18,6 +18,9 @@ function Home({popularSonnikNames}: HomeProps): JSX.Element {
         Миллера, Сонник Ванги, Мусульманский Сонник, Сонник Цветкова, Сонник Фрейда и др."/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="yandex-verification" content="92f503e85fd3b236" />
+        <meta name="yandex-verification" content="482a477b1169feef" />
+        <meta name="yandex-verification" content="658d1b4a4fafebac" />
       </Head>
       <WelcomeBlock/>
       <ScrollBlock popularSonnikNames={popularSonnikNames}/>
