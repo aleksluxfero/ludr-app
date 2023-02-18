@@ -17,7 +17,9 @@ function Home({popularSonnikNames}: HomeProps): JSX.Element {
         <meta name="description" content="Сонник
         Миллера, Сонник Ванги, Мусульманский Сонник, Сонник Цветкова, Сонник Фрейда и др."/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="icon" href="/favicon.ico"/>
+        <link rel="icon" sizes="16x16" href="/favicon-16.png"/>
+        <link rel="icon" sizes="32x32" href="/favicon-32.png"/>
+        <link rel="icon" sizes="96x96" href="/favicon-96.png"/>
         <meta name="yandex-verification" content="92f503e85fd3b236" />
         <meta name="yandex-verification" content="482a477b1169feef" />
         <meta name="yandex-verification" content="658d1b4a4fafebac" />
