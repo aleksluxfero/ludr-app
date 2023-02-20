@@ -4,6 +4,9 @@ import WelcomeBlock from "@/components/welcome-block/welcome-block";
 import {IPopularSonnikNames} from "@/types";
 import Wrapper from "@/layout/components/wrapper/wrapper";
 import ScrollBlock from "@/components/scroll-block/scroll-block";
+import Button from "@/components/button/button";
+import Link from "next/link";
+import {PATHS} from "@/constants";
 
 
 interface HomeProps {
@@ -14,16 +17,13 @@ function Home({popularSonnikNames}: HomeProps): JSX.Element {
     <>
       <Head>
         <title>Сонник - толкование снов онлайн бесплатно</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="Сонник
         Миллера, Сонник Ванги, Мусульманский Сонник, Сонник Цветкова, Сонник Фрейда и др."/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="icon" sizes="16x16" href="/favicon-16.png"/>
-        <link rel="icon" sizes="32x32" href="/favicon-32.png"/>
-        <link rel="icon" sizes="96x96" href="/favicon-96.png"/>
-        <meta name="yandex-verification" content="92f503e85fd3b236" />
-        <meta name="yandex-verification" content="482a477b1169feef" />
-        <meta name="yandex-verification" content="658d1b4a4fafebac" />
       </Head>
+      <Link href={PATHS.home + "kak-popast-v-osoznannyj-son"}>
+        <Button>Как попасть в осознанный сон?</Button>
+      </Link>
       <WelcomeBlock/>
       <ScrollBlock popularSonnikNames={popularSonnikNames}/>
       <Wrapper className="markdown">

@@ -6,3 +6,32 @@
   background-color: var(--foreground);
   padding: 20px 15px;
 }
+
+.markdown .link {
+  color: var(--blue);
+}
+
+.markdown .structure {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.markdown .structure ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.markdown .structure ul li {
+  text-decoration: underline;
+  font-size: 14px;
+  color: var(--blue3);
+}
+
+.markdown img {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
