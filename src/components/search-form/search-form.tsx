@@ -15,7 +15,6 @@ const SearchForm: FC<SearchFormProps> = ({className, placeholder, notButton,...p
   const router = useRouter();
   const onSubmitForm = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    console.log(inputValue)
     onSearchButtonClick();
   }
 
