@@ -7,6 +7,7 @@ import styles from "@/styles/Sonnik.module.css";
 import Link from "next/link";
 import {PATHS} from "@/constants";
 import Head from "next/head";
+import Button from "@/components/button/button";
 
 interface SonnikProps {
   sonniks: ISonniks
@@ -21,6 +22,9 @@ function Sonnik({sonniks}: SonnikProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
+      <Link href={PATHS.home + "kak-popast-v-osoznannyj-son"}>
+        <Button>Как попасть в осознанный сон?</Button>
+      </Link>
       <WelcomeBlock title={title}/>
       <ul className={styles.sonnikList}>
         {sonniks.map(sonnik => {
