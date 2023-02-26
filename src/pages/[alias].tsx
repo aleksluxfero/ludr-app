@@ -12,7 +12,7 @@ interface SonnikProps {
   sonniks: ISonniks
 }
 function Sonnik({sonniks}: SonnikProps) {
-  const title = "Сонник - " + sonniks[0].name + ", толкование снов";
+  const title = "Сонник: " + sonniks[0].name + ". К чему снится?";
   return (
     <>
       <Head>
