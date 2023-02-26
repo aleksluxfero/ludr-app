@@ -35,3 +35,16 @@
   object-fit: cover;
   border-radius: var(--border-radius);
 }
+
+.markdown div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.markdown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
