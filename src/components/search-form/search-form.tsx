@@ -34,6 +34,7 @@ const SearchForm: FC<SearchFormProps> = ({className, placeholder, notButton,...p
       </label>
       {notButton ? null :
       <ButtonIcon onClick={onSearchButtonClick} type="submit" className={styles.searchFormButton}>
+        <span className="hidden">Поиск</span>
         <SearchIcon className={styles.searchFormSearchIcon}/>
       </ButtonIcon>
       }

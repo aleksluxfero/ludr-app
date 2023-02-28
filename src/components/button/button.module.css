@@ -1,7 +1,7 @@
 .button {
   width: 100%;
   padding: 10px 15px;
-  background-color: var(--blue);
+  background-color: var(--dark-blue);
   border-radius: var(--border-radius);
   border: none;
   color: var(--text);

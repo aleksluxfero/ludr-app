@@ -1,4 +1,4 @@
-import {DetailedHTMLProps, FC, HTMLAttributes, useState} from "react";
+import React, {DetailedHTMLProps, FC, HTMLAttributes, useState} from "react";
 import styles from "./header.module.css";
 import cn from "classnames";
 import Logo from "@/components/logo/logo";
@@ -24,6 +24,7 @@ const Header: FC<HeaderProps> = ({className, ...props}) => {
       </div>
       <div className={styles.headerRight}>
         <ButtonIcon onClick={toggleHeaderSearch}>
+          <span className="hidden">Поиск</span>
           <SearchIcon className={styles.headerSearchIcon}/>
         </ButtonIcon>
       </div>
